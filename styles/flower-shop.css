@@ -3,11 +3,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Lato', sans-serif;
 }
 
+/** Header Part Banner Area **/
 .container{
     width: 100%;
     height: 600px;
@@ -26,12 +28,6 @@ body{
     background-size: 430px;
     background-position: bottom right;
 }
-.bnr_img img{
-    display: block;
-    width: 450px;
-    height: 550px;
-
-}
 .bnr_txt h1{
     font-size: 50px;
     font-weight: 700;
@@ -47,4 +43,154 @@ body{
     color: white;
     padding: 10px 25px;
     border-radius: 8px;
+    border: none;
+}
+
+/* Sign UP Area */
+.signup_container{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.signup_content{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    padding:  20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup_content img{
+    width: 250px;
+}
+.signup_content h3{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.signup_content h3 > span{
+    color: #E55473;
+}
+.signup_content p{
+    text-align: center;
+    margin-top: 20px;
+    color: #27272799;
+}
+.signup_content button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #E55473;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Instagram Section */
+
+.insta_sec{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    height: 600px;
+}
+.insta_txt{
+    text-align: center;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+.insta_txt h3{
+    font-size: 35px;
+    font-weight: 900;
+}
+.insta_txt p{
+    text-align: center;
+    margin-top: 20px;
+    color: #27272799;
+}
+.insta_img{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.insta_img > img{
+    width: 292px;
+}
+
+/* Get Latest Deal Section */
+.deal_sec{
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-position: top;
+    background-size: cover;
+    margin: 30px auto;
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    padding-top: 110px;
+}
+.deal_sec h3{
+    font-size: 35px;
+    font-weight: 900;
+}
+.deal_sec p{
+    /* text-align: center; */
+    margin-top: 20px;
+    color: #27272799;
+}
+.deal_sec input{
+    /* outline: none; */
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 620px;
+    height: 40px;
+    padding: 15px;
+}
+.deal_sec button{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #E55473;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Footer Area */
+footer{
+    margin-top: 100px;
+    background-color: #111010;
+}
+.f_con{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+}
+.f_con h3{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
+.f_con h3 > span{
+    color: #E55473;
+}
+.f_con > p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.80);
+}
+.f_con small{
+    display: block;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.40);
 }
