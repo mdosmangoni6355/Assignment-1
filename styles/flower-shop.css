@@ -66,9 +66,22 @@ body{
     align-items: end;
     width: 250px;
     height: 300px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
     background-color: #d4ccce;
+}
+.card_two{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card_two > div{
+    width: 250px;
+    height: 300px;
+}
+.card_two > div > p{
+    color: #272727;
+    text-decoration: underline;
 }
 
 .featured h3{
@@ -80,7 +93,7 @@ body{
     color: rgba(39, 39, 39, 0.60);
 }
 .img_item img{
-    width: 150px;
+    width: 200px;
     height: 220px;
     /* display: block; */
 }
