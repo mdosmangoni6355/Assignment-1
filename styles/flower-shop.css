@@ -60,6 +60,17 @@ body{
     justify-content: space-evenly;
     gap: 10px;
 }
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #d4ccce;
+}
+
 .featured h3{
     font-size: 35px;
     font-weight: 900;
@@ -69,7 +80,9 @@ body{
     color: rgba(39, 39, 39, 0.60);
 }
 .img_item img{
-    width: 200px;
+    width: 150px;
+    height: 220px;
+    /* display: block; */
 }
 
 /* Sign UP Area */
