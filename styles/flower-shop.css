@@ -143,7 +143,7 @@ body{
 /* Instagram Section */
 
 .insta_sec{
-    margin: 0;
+    margin: 0 auto;
     margin-top: 100px;
     width: 80%;
     height: 600px;
@@ -164,7 +164,7 @@ body{
     color: #27272799;
 }
 .insta_img{
-    margin: 0 auto;
+    margin: 0;
     width: 80%;
     height: auto;
     display: flex;
